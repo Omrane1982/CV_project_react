@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+/*pour mettre tout le doc en harmonie*/
+*
+{
+    font-family: 'open_sansregular', 'Arial', sans-serif;
+    color:#fff;
+    background-image: url('fond_jaune.png');
+}
+ 
+ 
+/*pour mettre uniquement la photo de droite en forme*/
+img
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    float: right;
+    border: 1px solid black;
+    border-radius: 30px / 40px;
+    box-shadow: 3px 3px 1px #A87767;
+}
+ 
+/*pour mettre juste la "photo bordure" en forme*/
+aside
+{
+    float: left;
+    border: 1px solid #fff
+    border-radius: 30px / 40px; 
+}
+ 
+/*pour orienter mes 3 colonnes*/
+article
+{
+    display : flex;
+    flex-direction: row-reverse;
+    justify-content : center;
+}
+ 
+/*taille des colonnes*/
+.element
+{
+    width: 800px;
+    height: 450px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+ 
+/*taille de la page*/
+section
+{
+width: 100%;
+min-width: 30%;
+}
