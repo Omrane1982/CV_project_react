@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import Imagecode from './code.jpg';
 import Imagereact from'./react.png';
+import './home.css';
 
 class Home extends Component{
     render(){
