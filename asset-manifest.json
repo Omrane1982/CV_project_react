@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Omrane1982/CV_project_react.git/static/css/main.e6551561.chunk.css",
-    "main.js": "/Omrane1982/CV_project_react.git/static/js/main.94635571.chunk.js",
-    "main.js.map": "/Omrane1982/CV_project_react.git/static/js/main.94635571.chunk.js.map",
-    "runtime~main.js": "/Omrane1982/CV_project_react.git/static/js/runtime~main.fd55bc57.js",
-    "runtime~main.js.map": "/Omrane1982/CV_project_react.git/static/js/runtime~main.fd55bc57.js.map",
-    "static/js/2.5f205d8e.chunk.js": "/Omrane1982/CV_project_react.git/static/js/2.5f205d8e.chunk.js",
-    "static/js/2.5f205d8e.chunk.js.map": "/Omrane1982/CV_project_react.git/static/js/2.5f205d8e.chunk.js.map",
-    "index.html": "/Omrane1982/CV_project_react.git/index.html",
-    "precache-manifest.8e072b906f92115a407d56ce1355ee6b.js": "/Omrane1982/CV_project_react.git/precache-manifest.8e072b906f92115a407d56ce1355ee6b.js",
-    "service-worker.js": "/Omrane1982/CV_project_react.git/service-worker.js",
-    "static/css/main.e6551561.chunk.css.map": "/Omrane1982/CV_project_react.git/static/css/main.e6551561.chunk.css.map",
-    "static/media/code.jpg": "/Omrane1982/CV_project_react.git/static/media/code.bf9fb9d6.jpg",
-    "static/media/react.png": "/Omrane1982/CV_project_react.git/static/media/react.08fe96c8.png",
-    "static/media/sofitel_mini.jpg": "/Omrane1982/CV_project_react.git/static/media/sofitel_mini.6d580d41.jpg"
+    "main.css": "/CV_project_react/static/css/main.b4f8dd56.chunk.css",
+    "main.js": "/CV_project_react/static/js/main.ed7aa32d.chunk.js",
+    "main.js.map": "/CV_project_react/static/js/main.ed7aa32d.chunk.js.map",
+    "runtime~main.js": "/CV_project_react/static/js/runtime~main.2535fbda.js",
+    "runtime~main.js.map": "/CV_project_react/static/js/runtime~main.2535fbda.js.map",
+    "static/js/2.5f205d8e.chunk.js": "/CV_project_react/static/js/2.5f205d8e.chunk.js",
+    "static/js/2.5f205d8e.chunk.js.map": "/CV_project_react/static/js/2.5f205d8e.chunk.js.map",
+    "index.html": "/CV_project_react/index.html",
+    "precache-manifest.a9748a2f7265434bc64a2f920b097984.js": "/CV_project_react/precache-manifest.a9748a2f7265434bc64a2f920b097984.js",
+    "service-worker.js": "/CV_project_react/service-worker.js",
+    "static/css/main.b4f8dd56.chunk.css.map": "/CV_project_react/static/css/main.b4f8dd56.chunk.css.map",
+    "static/media/code.jpg": "/CV_project_react/static/media/code.bf9fb9d6.jpg",
+    "static/media/react.png": "/CV_project_react/static/media/react.08fe96c8.png",
+    "static/media/sofitel_mini.jpg": "/CV_project_react/static/media/sofitel_mini.6d580d41.jpg"
   }
 }
