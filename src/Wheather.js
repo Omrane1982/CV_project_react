@@ -21,7 +21,7 @@ class Wheather extends Component{
         console.log(city,country)
 
         console.log('get Wheather')
-        const api =await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&${country}&units=metric&appid=${API_KEY}`)
+        const api =await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&${country}&units=metric&appid=${API_KEY}`)
         const data =await api.json();
         console.log(data)
         if(city&&country){
