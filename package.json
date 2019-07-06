@@ -2,7 +2,7 @@
   "name": "cvproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Omrane1982/CV_project_react.git",
+  "homepage": "https://omrane1982.github.io/CV_project_react/",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
