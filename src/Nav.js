@@ -8,7 +8,7 @@ const Nav=()=>{
             <ul>
                 <NavLink exact to="/">Home</NavLink>
                 <NavLink  to="/CV">CV</NavLink>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/Wheather">Wheather</NavLink>
                 <NavLink to="/Blog">Blog</NavLink>
                 <NavLink to="/IMAGE">IMAGE</NavLink>
             </ul>
