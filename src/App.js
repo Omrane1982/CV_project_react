@@ -5,6 +5,7 @@ import About from'./About';
 import CV from'./CV';
 import Nav from'./Nav';
 import Blog from'./blog';
+import UploadImage from'./UploadImage';
 
 class App extends Component {
   render(){
@@ -18,6 +19,7 @@ class App extends Component {
    <Route  path="/CV" component={CV}/>
    <Route path="/about" component={About}/>
    <Route path="/Blog" component={Blog}/>
+   <Route path="/IMAGE" component={UploadImage}/>
    </switch>
     </div>
     </BrowserRouter>

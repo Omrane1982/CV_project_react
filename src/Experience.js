@@ -1,6 +1,6 @@
 import React from 'react'
 const Experience = (props) =>{
-    const {items,deleteItem} = props;
+    const {items,deleteItem,style} = props;
     let length =items.length;
 
     const ListItems = length?(
@@ -9,7 +9,7 @@ const Experience = (props) =>{
             <ul key={item.id}>
             <li className="name" > {item.date}: {item.experience}
             
-            <span className="action icon" onClick={()=>deleteItem(item.id)}>&times;</span>
+            <span className="action icon"style={style} onClick={()=>deleteItem(item.id)}>&times;</span>
             </li>
             </ul>
         )
@@ -21,10 +21,7 @@ const Experience = (props) =>{
 
         return(
             <div className="ListItems">
-            <div>
             
-
-            </div>
                 {ListItems}
             </div>
         )

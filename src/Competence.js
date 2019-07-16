@@ -67,7 +67,7 @@ class Competence extends Component{
     return(
       <div>
 
-      <form onSubmit={this.HandleSubmit}>
+      <form onSubmit={this.HandleSubmit} style={this.props.style}>
        <input type="text" placeholder="Enter your Competence" id="competence" onChange={this.HadndleChange} value={this.state.competence}></input>
        
        
@@ -79,7 +79,7 @@ class Competence extends Component{
         
             {this.state.items.map(item=>
               <ul><li> {item.competence}
-              <span className="action icon" onClick={()=>this.deleteComp(item.id)}>&times;</span>
+              <span className="action icon"style={this.props.style} onClick={()=>this.deleteComp(item.id)}>&times;</span>
               </li></ul>
               
               

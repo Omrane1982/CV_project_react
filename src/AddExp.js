@@ -35,7 +35,7 @@ class AddExp extends Component {
     render(){
         return(
             <div>
-           <form onSubmit={this.HandleSubmit}>
+           <form onSubmit={this.HandleSubmit} style={this.props.style}>
             <input type="text" placeholder="Enter your periode" id="date" onChange={this.HadndleChange} value={this.state.date}></input>
             <input type="text" placeholder="Enter your Job" id="experience" onChange={this.HadndleChange} value={this.state.experience}></input>
             
