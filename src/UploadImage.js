@@ -58,15 +58,20 @@ class UploadImage extends Component{
         
     }
     render(){
-       
+        const style4 ={
+            marginLeft:'70%',
+            borderStyle :'groove'
+        }
         return(
             
             
           <div >
                 <div style={this.props.style} >
+                    <form style={style4}>
                 <input type="file" name="myImage" onChange= {this.onChange} />
                 <button  onClick={this.ondivSubmit}>Upload</button>
                 <span className="action icon"style={this.props.style} onClick={()=>this.deleteImg()}>&times;</span>
+                </form>
                 </div>
                 
                 
