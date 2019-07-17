@@ -58,15 +58,19 @@ class UploadImage extends Component{
         
     }
     render(){
+       
         return(
             
+            
           <div >
-                <div style={this.props.style}>
+                <div style={this.props.style} >
                 <input type="file" name="myImage" onChange= {this.onChange} />
                 <button  onClick={this.ondivSubmit}>Upload</button>
-                </div>
-                <img src={this.state.url || 'https://via.placeholder.com/200x150'} alt="image"/>
                 <span className="action icon"style={this.props.style} onClick={()=>this.deleteImg()}>&times;</span>
+                </div>
+                
+                
+                <img src={this.state.url || 'https://via.placeholder.com/200x150'} alt="image"/>
             </div>
            
         )

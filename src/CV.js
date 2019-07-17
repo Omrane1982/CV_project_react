@@ -5,7 +5,9 @@ import Competence from './Competence';
 import UploadImage from'./UploadImage';
 import AddExp from './AddExp';
 import Formation from './Formation';
-import Name from'./Name'
+import Name from'./Name';
+
+
 
 
 class CV extends Component{
@@ -43,14 +45,38 @@ class CV extends Component{
      
     render(){
       
-      const { showing } = this.state
-        
+      const { showing } = this.state;
+      const style2={
+        fontSize: '80px',
+        fontWeight : '900',
+        color: 'white', 
+        textAlign: 'center',
+        borderstyle: 'inset',
+        borderWidth: '7px',
+        borderColor: 'coral',
+      }
+        const style3={
+          fontSize: '30px',
+        fontWeight : '900',
+        color: 'white', 
+        textAlign: 'center',
+        borderstyle: 'inset',
+        borderWidth: '7px',
+        borderColor: 'coral',
+          
+        }
       
     return(
-        <div>
+<div >
+     <div style={style2}> 
+     Curriculum Vitae 
+     
+     </div>
+             
  
  <p><UploadImage className="photo sofitel" style={{ display: (showing ? 'block' : 'none') }} /></p>
- <Name style={{ display: (showing ? 'block' : 'none') }} />
+ <p style={style3}><Name style={{ display: (showing ? 'block' : 'none') }}  /></p>
+ 
  
          
 
@@ -73,7 +99,7 @@ class CV extends Component{
                             </div>
                             </article>
                             </section>
-                            <button onClick={() => this.setState({ showing: !showing })}> Valider Votre CV</button>
+                            <button color="warning" onClick={() => this.setState({ showing: !showing })}> Valider Votre CV</button>{' '}
         </div>
     )
 }

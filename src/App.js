@@ -6,6 +6,7 @@ import CV from'./CV';
 import Nav from'./Nav';
 import Blog from'./blog';
 import UploadImage from'./UploadImage';
+import { Button } from 'reactstrap';
 
 class App extends Component {
   render(){
