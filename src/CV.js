@@ -68,9 +68,9 @@ class CV extends Component{
       
     return(
 <div >
-     <div style={style2}> 
-     Curriculum Vitae 
+     <div className="button"> 
      
+     <span  onClick={() => this.setState({ showing: !showing })}> Curriculum Vitae </span>
      </div>
              
  
@@ -99,7 +99,7 @@ class CV extends Component{
                             </div>
                             </article>
                             </section>
-                            <button color="warning" onClick={() => this.setState({ showing: !showing })}> Valider Votre CV</button>{' '}
+                            
         </div>
     )
 }

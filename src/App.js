@@ -5,7 +5,7 @@ import Wheather from'./Wheather';
 import CV from'./CV';
 import Nav from'./Nav';
 import Blog from'./blog';
-import UploadImage from'./UploadImage';
+
 import { Button } from 'reactstrap';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
    <Route  path="/CV" component={CV}/>
    <Route path="/Wheather" component={Wheather}/>
    <Route path="/Blog" component={Blog}/>
-   <Route path="/IMAGE" component={UploadImage}/>
+  
    </switch>
     </div>
     </BrowserRouter>

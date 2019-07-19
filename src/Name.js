@@ -76,8 +76,10 @@ class Name extends Component{
        
         
             
-              <h1><strong>{this.state.name}</strong></h1>   
-              <h1><strong>{this.state.job}</strong></h1> 
+            <h1 ><strong>{this.state.name}</strong></h1>  
+             
+            <h1 ><strong>{this.state.job}</strong></h1> 
+          
               
               
            
