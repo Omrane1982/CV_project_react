@@ -46,15 +46,7 @@ class CV extends Component{
     render(){
       
       const { showing } = this.state;
-      const style2={
-        fontSize: '80px',
-        fontWeight : '900',
-        color: 'white', 
-        textAlign: 'center',
-        borderstyle: 'inset',
-        borderWidth: '7px',
-        borderColor: 'coral',
-      }
+      
         const style3={
           fontSize: '30px',
         fontWeight : '900',
