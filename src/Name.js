@@ -68,7 +68,7 @@ class Name extends Component{
       <form onSubmit={this.HandleSubmit}style={this.props.style}>
        <input type="text" placeholder="Enter your name" id="name" onChange={this.HadndleChange} value={this.state.name}></input>
        <input type="text" placeholder="Enter your job" id="job" onChange={this.HadndleChange} value={this.state.job}></input>
-       
+       <span className="action icon" style={this.props.style} onClick={()=>this.deleteComp()}>&times;</span>
        
 
       </form>
@@ -76,8 +76,9 @@ class Name extends Component{
        
         
             
-              <h1><strong>{this.state.name}</strong><span className="action icon" style={this.props.style} onClick={()=>this.deleteComp()}>&times;</span></h1>   
-              <p>{this.state.job} </p>
+              <h1><strong>{this.state.name}</strong></h1>   
+              <h1><strong>{this.state.job}</strong></h1> 
+              
               
            
             </div>

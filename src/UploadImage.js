@@ -3,28 +3,30 @@ import {storage} from'./ImageFirebase';
 
 
 class UploadImage extends Component{
-    // constructor(props) {
-    //     super(props);
-    //     this.state ={
-    //         image: null,
-    //         url:'',
-    //     };
-    //     // this.ondivSubmit = this.ondivSubmit.bind(this);
-    //     // this.onChange = this.onChange.bind(this);
-    // }
-    state={
+    constructor(props) {
+        super(props);
+        this.state ={
         image:null,
-        url:''
-    }
+        url:'',
+        progress:0
+
+     }}
+    // state={
+    //     image:null,
+    //     url:'',
+    //     progress:0
+
+    // }
     
-    ondivSubmit=()=>{
-        
+    ondivSubmit=(e)=>{
+        e.preventDefault()
         
     const {image}=this.state;
     const uploadTask=storage.ref(`images/${image.name}`).put(image);
     uploadTask.on('state_changed',
     (snapshot)=>{
-
+        const progress=Math.round((snapshot.bytesTransferred/snapshot.totalBytes)*100);
+        this.setState({progress});
     },
     (error)=>{
         console.log(error)
@@ -68,6 +70,8 @@ class UploadImage extends Component{
           <div >
                 <div style={this.props.style} >
                     <form style={style4}>
+                <progress value={this.state.progress} max="100"/>
+                <br/>
                 <input type="file" name="myImage" onChange= {this.onChange} />
                 <button  onClick={this.ondivSubmit}>Upload</button>
                 <span className="action icon"style={this.props.style} onClick={()=>this.deleteImg()}>&times;</span>
@@ -75,7 +79,7 @@ class UploadImage extends Component{
                 </div>
                 
                 
-                <img src={this.state.url || 'https://via.placeholder.com/200x150'} alt="image"/>
+                <img src={this.state.url || 'https://via.placeholder.com/250x250'} alt="image"/>
             </div>
            
         )

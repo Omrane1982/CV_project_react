@@ -58,7 +58,7 @@ class Wheather extends Component{
             country={this.state.country}
             humidity={this.state.humidity}
             description={this.state.description}
-            error=""
+            error={this.state.error}
             />
             </div>
             </div>
