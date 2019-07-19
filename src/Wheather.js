@@ -42,7 +42,7 @@ class Wheather extends Component{
         country:'',
         humidity:'',
         description:'',
-        error:'Please enter Data'
+        error:'Please enter City & Country'
             })
 
         }
