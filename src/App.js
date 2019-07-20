@@ -5,7 +5,7 @@ import Wheather from'./Wheather';
 import CV from'./CV';
 import Nav from'./Nav';
 import Blog from'./blog';
-import UploadImage from './UploadImage';
+
 
 class App extends Component {
   render(){
