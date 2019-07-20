@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import TheImage from './sofitel_mini.jpg';
+
 import Experience from './Experience';
 import Competence from './Competence';
 import UploadImage from'./UploadImage';

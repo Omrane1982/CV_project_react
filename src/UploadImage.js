@@ -54,12 +54,14 @@ class UploadImage extends Component{
       
     }
     deleteImg=()=>{
-        let {url}= this.state;
+      
         this.setState({url:null})
         console.log(this.state)
         
     }
+      
     render(){
+        
         const style4 ={
             marginLeft:'70%',
             borderStyle :'groove'
@@ -75,11 +77,12 @@ class UploadImage extends Component{
                 <input type="file" name="myImage" onChange= {this.onChange} />
                 <button  onClick={this.ondivSubmit}>Upload</button>
                 <span className="action icon"style={this.props.style} onClick={()=>this.deleteImg()}>&times;</span>
+               
                 </form>
                 </div>
                 
                 
-                <img src={this.state.url || 'https://via.placeholder.com/250x250'} alt="image"/>
+                <img src={this.state.url || 'https://via.placeholder.com/250x250'} alt="CV"/>
             </div>
            
         )

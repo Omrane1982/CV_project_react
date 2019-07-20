@@ -6,9 +6,9 @@ class Home extends Component{
     render(){
       return(
         <div className="home">
-          <p className="home2"><img src={Imagereact } className="image react" /></p>
+          <p className="home2"><img src={Imagereact } alt="react" /></p>
           <p className="home2"><h1> Demo Day OMRANE RABAH : <strong>REACT JS</strong>  </h1></p>
-          <p className="home2"><img src={Imagecode } className="image code" /></p>
+          <p className="home2"><img src={Imagecode } alt="code" /></p>
         </div>
       )
     }
