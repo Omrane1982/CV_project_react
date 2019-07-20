@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd6e6ff6d6b3e51c4eccc5702098b34e",
+    "revision": "4d481e48423e3dbb23848cae6e09a0a7",
     "url": "/CV_project_react/index.html"
   },
   {
-    "revision": "320662cc736d58ae3f0e",
+    "revision": "40edc68e23721ab31d7a",
     "url": "/CV_project_react/static/css/main.79784b06.chunk.css"
   },
   {
-    "revision": "052ea9665d51e66d114b",
-    "url": "/CV_project_react/static/js/2.d4af7c59.chunk.js"
+    "revision": "6718f958f590ec0ed7c0",
+    "url": "/CV_project_react/static/js/2.a9d77ea5.chunk.js"
   },
   {
-    "revision": "320662cc736d58ae3f0e",
-    "url": "/CV_project_react/static/js/main.667d2a3e.chunk.js"
+    "revision": "40edc68e23721ab31d7a",
+    "url": "/CV_project_react/static/js/main.5470004d.chunk.js"
   },
   {
     "revision": "4197a12c69bd52c91d2d",
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08fe96c81d71549cf3e64e86ead5e6d3",
     "url": "/CV_project_react/static/media/react.08fe96c8.png"
-  },
-  {
-    "revision": "6d580d41a9d8403d306f3e6467404b70",
-    "url": "/CV_project_react/static/media/sofitel_mini.6d580d41.jpg"
   }
 ]);
