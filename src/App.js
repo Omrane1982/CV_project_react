@@ -19,7 +19,7 @@ class App extends Component {
    <Route  path="/CV" component={CV}/>
    <Route path="/Wheather" component={Wheather}/>
    <Route path="/Blog" component={Blog}/>
-   <Route path="/:rout" component={UploadImage}/>
+   
   
    </Switch>
     </div>
